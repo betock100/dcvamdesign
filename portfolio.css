@@ -1,0 +1,312 @@
+
+/******************************************compu pequenhas*/
+
+ul_portfolio{
+    list-style-type: none;
+    margin: 0 0 0;
+    padding: none;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    height: 1640px;
+    font-size: 12px;
+    justify-content: space-around;    
+    text-align: center;
+    width: 100%;
+  }
+  li_p3 {
+    border:  none; /*1px solid black;*/
+    margin: 10px 0px 0px;
+    text-align: center;
+       
+    }
+ 
+  .flexPo1{
+    order: 1;
+    flex-basis: 100%;
+    padding: none ;
+    font-size: 1.3em;
+    text-align: center;
+    height: 33.333%;
+     
+    
+    
+    
+    
+  }
+  .flexPo1 a {
+    color: black;
+    display: flex;
+    height: 100%;
+    /*box-shadow: black;*/
+    text-decoration: none;
+    background-image: url('images/webDev/iphone_hover.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    
+    background-position-x: center;
+    transition-duration: 0.5s;
+    padding: 68%  33% ;
+    text-align: center;
+    text-shadow: 1px 2px 6px white;
+    
+  }
+  .flexPo1 a:hover {
+    /*background-color: #337288;*/
+    color: black;
+    display: flex;
+    height: 100%;
+    background-image: url('images/webDev/iphone_hover.png');
+    text-decoration: none;
+    padding: 68% 33% 0 ;
+    margin: none; /*-5px 0 -12px;*/
+    /*box-shadow: 5px 5px 15px #888888;*/
+    background-size: 93%;
+    text-shadow: 1px 2px 6px white;
+    
+  }
+  
+  
+  .flexPo2{
+    order: 2;
+    flex-basis: 100%;
+    padding: none ; 
+    text-align: center;
+    height: 33.333%; 
+    font-size: 1.3em;
+    
+    
+     
+    
+  }
+  .flexPo2 a {
+    color: black;
+    display: flex;
+    height: 100%;
+    /*box-shadow: black;*/
+    text-decoration: none;
+    background-image: url('images/webDev/store_hover.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+    transition-duration: 0.5s;
+    padding: 68%  33% ;
+    text-align: center;
+    text-shadow: 1px 2px 6px white;
+    
+  }
+  .flexPo2 a:hover {
+    color: black;
+    display: flex;
+    height: 100%;
+    background-image: url('images/webDev/store_hover.png');
+    text-decoration: none;
+    padding: 68% 33% 0 ;
+   /* margin: -5px 0 -12px;*/
+    /*box-shadow: 5px 5px 15px #888888;*/
+    background-size: 93%;
+    text-shadow: 4px 2px 4px white;
+    
+  }
+  
+  .flexPo3{
+    order: 3;
+    flex-basis: 100%;
+    padding: none; 
+    text-align: center;
+    height: 33.3333% ;  
+    /*align-items: flex-end;*/
+    font-size: 1.3em;
+    
+    
+  }
+  .flexPo3 a {
+    color: black;
+    display: flex;
+    height: 100%;
+    /*box-shadow: black;*/
+    text-decoration: none;
+    background-image: url('images/webDev/walter_hover.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+    transition-duration: 0.5s;
+    padding: 68%  33% ;
+    text-align: center;
+    text-shadow: 1px 2px 6px white;
+    
+  }
+  .flexPo3 a:hover {
+    /*background-color: #337288;*/
+    color: black;
+    display: flex;
+    height: 103%;
+    background-image: url('images/webDev/walter_hover.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position-x: center;
+    transition-duration: 0.5s;
+    padding: 68%  33% ;
+    text-align: center;
+    text-shadow: 1px 2px 6px white;
+    
+    
+  }
+  /*
+  .flexP3 a:visited{
+    color: #337288;
+  }*/
+            /*---------------------phoneGrande       */
+            @media all and (min-width: 380px) {
+              ul_portfolio{
+                height: 1000px;      
+                width: 100%;
+              }
+          
+          
+              .flexPo1{
+                flex-basis: 50%;
+                height: 50%;
+              }
+                .flexPo1 a {
+                  background-size: 100%;
+                }
+                .flexPo1 a:hover {
+                  background-size: 100%;
+                }
+              .flexPo2{
+                flex-basis: 50%;
+                height: 50%;
+              }
+                .flexPo2 a {
+                  background-size: 100%;
+                }
+                .flexPo2 a:hover {
+                  background-size: 100%;
+                }
+              .flexPo3{
+                flex-basis: 50%;
+                height: 50%;                
+              }
+                .flexPo3 a {
+                  background-size: 100%;
+                }
+                .flexPo3 a:hover {
+                  background-size: 100%;
+                }
+              }
+
+            /*---------------------tablet1*/
+  @media all and (min-width: 648px) {
+    ul_portfolio{
+      height: 1140px;      
+      width: 100%;
+    }
+
+
+    .flexPo1{
+      flex-basis: 50%;
+      height: 50%;
+      font-size: 1.6em; 
+    }
+    .flexPo1 a {
+      background-size: 90%;
+    }
+    .flexPo1 a:hover {
+      background-size: 90%;
+    }
+    .flexPo2{
+      flex-basis: 50%;
+      height: 50%;
+      font-size: 1.6em;
+    }
+    .flexPo2 a {
+      background-size: 90%;
+    }
+    .flexPo2 a:hover {
+      background-size: 90%;
+    }
+    .flexPo3{
+      flex-basis: 50%;
+      height: 50%;
+    }
+      .flexPo3 a {
+        background-size: 90%;
+      }
+      .flexPo3 a:hover {
+        background-size: 90%;
+      }
+  }
+          /*---------------------compu small*/
+  @media all and (min-width: 980px) {
+    ul_portfolio{
+      height: 540px;      
+      width: 100%;
+    }
+    .flexPo1{
+      flex-basis: 33.3%;
+      height: 100%;
+      
+    }
+    .flexPo1 a {
+      color: transparent;  
+      background-image: url('images/c_Images/iphone2.png');
+      background-size: 90%;
+      transition-duration: 0.5s; 
+      padding: 10%  20% ;
+      text-shadow: none; 
+      
+    }
+
+    .flexPo1 a:hover {
+      background-size: 93%;
+    }
+
+    .flexPo2{
+      flex-basis: 33.3%;
+      height: 100%;
+      
+    }
+    .flexPo2 a {
+      color: transparent;
+      background-image: url('images/webDev/store_a.png');
+      background-size: 90%;
+      transition-duration: 0.5s;
+      padding: 10%  20% ;
+      text-shadow: none; 
+    }
+    .flexPo2 a:hover {
+      background-size: 93%;
+    }
+    
+    .flexPo3{
+      flex-basis: 33.3%;
+      height: 100%;      
+    }
+    .flexPo3 a {
+      color: transparent;
+      background-image: url('images/webDev/walter_a.png');
+      background-size: 90%;
+      transition-duration: 0.5s;
+      padding: 10%  20% ;
+      text-shadow: none; 
+    }
+    .flexPo3 a:hover {
+      background-size: 93%;
+    }
+
+  }
+  @media all and (min-width: 1200px) {
+    ul_portfolio{
+      height: 640px;   
+    }
+  }
+  @media all and (min-width: 1700px) {
+    ul_portfolio{
+      height: 640px;      
+      width: 1400px;
+      margin: 0 8% 0;
+    }
+
+  }
